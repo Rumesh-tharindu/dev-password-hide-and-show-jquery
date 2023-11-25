@@ -35,10 +35,75 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-family: "Inter";
+  background-color: #fff0e5;
+  box-sizing: border-box;
 }
 
-h1 {
-  color: #ff0000;
+.container {
+  max-width: 1420px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.loginPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginPage .form {
+  max-width: 450px;
+  background: #fff;
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginPage .form h2 {
+  color: #10162f;
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.loginPage .form label {
+  display: block;
+  color: #10162f;
+}
+.loginPage .form .formGroup {
+  margin-bottom: 1.2rem;
+}
+.loginPage .form input {
+  width: 100%;
+  line-height: 1.5;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #10162f;
+  font-size: 16px;
+  color: #000;
+}
+.loginPage .form input[type=submit] {
+  background-color: #10162f;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 17px;
+  cursor: pointer;
+}
+.loginPage .form .passwordWrapper {
+  position: relative;
+}
+.loginPage .form #passwordToText {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.loginPage .form #passwordToText i {
+  color: #10162f;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
